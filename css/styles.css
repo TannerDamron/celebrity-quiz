@@ -1,0 +1,7 @@
+.btn {
+  display: block;
+}
+
+#cook,#sport,#garden,#dance {
+  display: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Celebrity-dating-quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating Quiz:</h1>
+
+      <p>Enter the following info to know about your compatability:</p>
+
+      <form id="quiz">
+        <label for="age">Age</label>
+        <input id="age" type="text"><br><br>
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select><br><br>
+        <label for="interests">Check your Interest:</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="sports" checked>
+            Sports
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="cooking" checked>
+            Cooking
+          </label>
+        </div>
+         <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="dancing">
+            Dancing
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="gardening" >
+            Gardening
+          </label>
+        </div>
+        <button type="submit" class="btn" id ="btn">Click to reveal:</button>
+      </form>
+
+      <div id="cook">
+        <h1>You got Chef Gordon Ramsey!</h1>
+        <img src="img/cooking.jpg" alt="gordon ramsey">
+      </div>
+
+      <div id="sport">
+        <h1>You got Steph Curry!</h1>
+        <img src="img/sports.jpg" alt="steph curry">
+      </div>
+
+      <div id="dance">
+        <h1>You got Beyonce!</h1>
+        <img src="img/dancing.jpg" alt="beyonce">
+      </div>
+
+      <div id="garden">
+        <h1>You got Oprah!</h1>
+        <img src="img/gardening.jpg" alt="oprah">
+      </div>
+
+    </div>
+
+  </body>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</html>
